@@ -19,11 +19,11 @@ function routeConfig ($stateProvider) {
       url: '/',
       templateUrl: 'src/public/home/home.html'
     })
-    .state('public.intro', {
-      url: '/intro',
-      templateUrl: 'src/public/intro/intro.html',
-      controller: 'IntroController',
-      controllerAs: 'introCtrl'
+    .state('public.archief', {
+      url: '/archief',
+      templateUrl: 'src/public/archief/archief.html',
+      controller: 'ArchiefController',
+      controllerAs: 'archiefCtrl'
     })
     .state('public.menu', {
       url: '/menu',

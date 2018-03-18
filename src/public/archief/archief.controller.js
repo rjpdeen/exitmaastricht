@@ -2,10 +2,10 @@
 "use strict";
 
 angular.module('public')
-.controller('IntroController', IntroController);
+.controller('ArchiefController', ArchiefController);
 
 // MenuController.$inject = [];
-function IntroController() {
+function ArchiefController() {
 	var $ctrl = this;
 }
 
