@@ -1,0 +1,42 @@
+[{
+	"id": 1,
+	"naam": "Piet",
+	"leeftijd": 11,
+	"motivatie": "Mijn titel verdedigen."
+},
+{
+	"id": 2,
+	"naam": "Joeri",
+	"leeftijd": 13,
+	"motivatie": "Ik doe mee voor het spelplezier. Winnen is voor mij niet belangrijk."
+},
+{
+	"id": 3,
+	"naam": "Nikki",
+	"leeftijd": 11,
+	"motivatie": "Het is zo lekker spannend! Dat vind ik er zo leuk aan."
+},
+{
+	"id": 4,
+	"naam": "Jan",
+	"leeftijd": 13,
+	"motivatie": "Ik heb een vraag. Was ik nou de mol? Ik ben het vergeten."
+},
+{
+	"id": 1,
+	"naam": "Joyce",
+	"leeftijd": 42,
+	"motivatie": "Ik vind het leuk om samen plezier te hebben met dit spel."
+},
+{
+	"id": 1,
+	"naam": "Nicole",
+	"leeftijd": 42,
+	"motivatie": "Ik ben voor het eerst een keer niet de mol, dus ik ga mijn best doen. Maar ik zal wel niet winnen."
+},
+{
+	"id": 1,
+	"naam": "Milo",
+	"leeftijd": 45,
+	"motivatie": "Ik sluit graag bondjes. Gezellig kletsen over anderen, daar houd ik van."
+}]

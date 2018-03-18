@@ -7,9 +7,16 @@
     <title>Wie is de Mol 2018 Vogezen en Ardennen</title>
     <link href='https://fonts.googleapis.com/css?family=Exo 2:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/archief.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/restaurant.css">
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/common.sizes.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/home.sizes.css">
+    <link rel="stylesheet" href="css/menu-categories.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/public.sizes.css">
+    <link rel="stylesheet" href="css/single-category.css">
   </head>
   <body ng-app="restaurant" ng-strict-di>
 
@@ -54,7 +61,7 @@
                 <a href="#">
                   <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
               </li> -->
-              <li>
+              <li ui-sref-active="active">
                 <a ui-sref="public.archief">
                   <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Archief</a>
               </li>
@@ -124,12 +131,14 @@
     <script src="src/common/loading/loading.component.js"></script>
     <script src="src/common/loading/loading.interceptor.js"></script>
     <script src="src/common/menu.service.js"></script>
+    <script src="src/common/deelnemer.service.js"></script>
 
     <!-- Public Module -->
     <script src="src/public/public.module.js"></script>
     <script src="src/public/public.routes.js"></script>
 
     <!-- Public controllers -->
+    <script src="src/public/home/home.controller.js"></script> 
     <script src="src/public/menu/menu.controller.js"></script> 
     <script src="src/public/archief/archief.controller.js"></script> 
 

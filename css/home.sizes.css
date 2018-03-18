@@ -1,0 +1,80 @@
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron.les-trois-forets {
+    background: url('../images/les-trois-forets_large.jpg') no-repeat;
+    height: 675px;
+  }
+  .container .jumbotron.robertville {
+    background: url('../images/robertville2_large.jpg') no-repeat;
+    height: 675px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Home Page */
+  .container .jumbotron.les-trois-forets {
+    background: url('../images/les-trois-forets_medium.jpg') no-repeat;
+    height: 558px;
+  }
+  .container .jumbotron.robertville {
+    background: url('../images/robertville2_medium.jpg') no-repeat;
+    height: 558px;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron.les_trois_forets {
+    background: url('../images/les-trois-forets_small.jpg') no-repeat;
+    height: 432px;
+  }
+  .container .jumbotron.robertville {
+    background: url('../images/robertville2_small.jpg') no-repeat;
+    height: 432px;
+  }
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (min-width: 480px) and (max-width: 767px) {
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+  #deelnemer-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-description {
+    text-align: center;;
+  }
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Home page */
+  #deelnemer-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}

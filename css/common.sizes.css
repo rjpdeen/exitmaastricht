@@ -1,0 +1,39 @@
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .weektitle { /* week1 en week2 title */
+    padding-top: 10px;
+    font-size: 4.5vw; /* 1vw = 1% of viewport width */
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .weektitle { /* week1 en week2 title */
+    padding-top: 10px;
+    font-size: 4vw; /* 1vw = 1% of viewport width */
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .weektitle { /* week1 en week2 title */
+    padding-top: 10px;
+    font-size: 3.5vw; /* 1vw = 1% of viewport width */
+  }
+}
+
+/********** Extra small devices only **********/
+@media (min-width: 480px) and (max-width: 767px) {
+  .weektitle { /* week1 en week2 title */
+    padding-top: 10px;
+    font-size: 3vw; /* 1vw = 1% of viewport width */
+  }
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  .weektitle { /* week1 en week2 title */
+    padding-top: 10px;
+    font-size: 2.5vw; /* 1vw = 1% of viewport width */
+  }
+}

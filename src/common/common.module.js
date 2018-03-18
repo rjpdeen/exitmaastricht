@@ -3,7 +3,7 @@
 
 angular.module('common', [])
 .config(config)
-.constant('ApiPath', 'https://rjp-course5.herokuapp.com');
+.constant('ApiPath', 'https://rjpdeen.github.io/wieisdemol-2018');
 
 config.$inject = ['$httpProvider'];
 function config(httpProvider){
