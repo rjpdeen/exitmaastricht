@@ -1,33 +1,15 @@
 <div id="main-content" class="container">
   <h2 class="weektitle">Week 1: Robertville, België</h2>
   <div class="jumbotron robertville">
-    <img src="images/robertville2_small.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
+    <img src="images/robertville2_small.jpg" alt="Picture of Robertville" class="img-responsive visible-xs">
   </div>
   <h2 class="weektitle">Week 2: Les trois fôrets, Frankrijk</h2>
   <div class="jumbotron les-trois-forets">
-    <img src="images/les-trois-forets_small.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
+    <img src="images/les-trois-forets_small.jpg" alt="Picture of Les trois fôrets" class="img-responsive visible-xs">
   </div>
   <div id="home-tiles" class="row">
     <div ng-repeat="deelnemer in homeCtrl.deelnemers" class="col-md-4 col-sm-6 col-xs-12">
       <a ui-sref="public.{{deelnemer.id}}"><div id="deelnemer-tile" class="{{deelnemer.id}}-tile"><span> {{ deelnemer.naam }}</span></div></a>
     </div>
-<!--     <div class="col-md-4 col-sm-6 col-xs-12">
-      <a ui-sref="public.nicole"><div id="deelnemer-tile" class="nicole-tile"><span>Nicole</span></div></a>
-    </div>
-    <div class="col-md-4 col-sm-6 col-xs-12">
-      <a ui-sref="public.nikki"><div id="deelnemer-tile" class="nikki-tile"><span>Nikki</span></div></a>
-    </div>
-    <div class="col-md-4 col-sm-6 col-xs-12">
-      <a ui-sref="public.joeri"><div id="deelnemer-tile" class="joeri-tile"><span>Joeri</span></div></a>
-    </div>
-    <div class="col-md-4 col-sm-6 col-xs-12">
-      <a ui-sref="public.milo"><div id="deelnemer-tile" class="milo-tile"><span>Milo</span></div></a>
-    </div>
-    <div class="col-md-4 col-sm-6 col-xs-12">
-      <a ui-sref="public.joyce"><div id="deelnemer-tile" class="joyce-tile"><span>Joyce</span></div></a>
-    </div>
-    <div class="col-md-4 col-sm-6 col-xs-12">
-      <a ui-sref="public.piet"><div id="deelnemer-tile" class="piet-tile"><span>Piet</span></div></a>
-    </div> -->
   </div>
 </div>

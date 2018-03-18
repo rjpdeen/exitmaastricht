@@ -21,6 +21,12 @@ function routeConfig ($stateProvider) {
       controller: 'HomeController',
       controllerAs: 'homeCtrl'
     })
+    .state('public.piet', {
+      url: '/piet',
+      templateUrl: 'src/public/home/piet.html',
+      controller: 'PietController',
+      controllerAs: 'pietCtrl'
+    })
     .state('public.archief', {
       url: '/archief',
       templateUrl: 'src/public/archief/archief.html',
