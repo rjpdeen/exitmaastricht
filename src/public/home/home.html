@@ -8,10 +8,10 @@
     <img src="images/les-trois-forets_small.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
   </div>
   <div id="home-tiles" class="row">
-    <div class="col-md-4 col-sm-6 col-xs-12">
-      <a ui-sref="public.jan"><div id="deelnemer-tile" class="jan-tile"><span>Jan</span></div></a>
+    <div ng-repeat="deelnemer in homeCtrl.deelnemers" class="col-md-4 col-sm-6 col-xs-12">
+      <a ui-sref="public.{{deelnemer.id}}"><div id="deelnemer-tile" class="{{deelnemer.id}}-tile"><span> {{ deelnemer.naam }}</span></div></a>
     </div>
-    <div class="col-md-4 col-sm-6 col-xs-12">
+<!--     <div class="col-md-4 col-sm-6 col-xs-12">
       <a ui-sref="public.nicole"><div id="deelnemer-tile" class="nicole-tile"><span>Nicole</span></div></a>
     </div>
     <div class="col-md-4 col-sm-6 col-xs-12">
@@ -28,6 +28,6 @@
     </div>
     <div class="col-md-4 col-sm-6 col-xs-12">
       <a ui-sref="public.piet"><div id="deelnemer-tile" class="piet-tile"><span>Piet</span></div></a>
-    </div>
+    </div> -->
   </div>
 </div>

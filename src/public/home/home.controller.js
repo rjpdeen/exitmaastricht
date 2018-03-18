@@ -8,8 +8,14 @@ HomeController.$inject = ['DeelnemerService'];
 function HomeController(DeelnemerService) {
 	var $ctrl = this;
 
-	$ctrl.deelnemers = DeelnemerService.getDeelnemers();
-	console.log("deelnemers: ", $ctrl.deelnemers);
+	$ctrl.deelnemers = [];
+	$ctrl.promise = DeelnemerService.getDeelnemers()
+	.then( function success (response) {
+		$ctrl.deelnemers = response.data;
+		// console.log("deelnemers: ", $ctrl.deelnemers);
+	});
+
+	
 }
 
 

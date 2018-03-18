@@ -10,9 +10,9 @@ function DeelnemerService($http, ApiPath){
 	var service = this;
 
 	service.getDeelnemers = function(){
-		return $http.get(ApiPath + '/src/common/deelnemers.json').then(function(response){
-			return response.data;
-		})
+		// console.log("pad: ", ApiPath + '/src/common/deelnemers.json');
+		return $http.get(ApiPath + '/src/common/deelnemers.json');
+
 
 		// var deelnemers = JSON.parse("src/common/deelnemers.json");
 	};
