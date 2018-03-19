@@ -33,6 +33,18 @@ function routeConfig ($stateProvider) {
       controller: 'ArchiefController',
       controllerAs: 'archiefCtrl'
     })
+    .state('public.archief.intro', {
+      url: '/archief/intro',
+      templateUrl: 'src/public/archief/archief.intro.html',
+      controller: 'IntroController',
+      controllerAs: 'intoCtrl'
+    })
+    .state('public.archief.spelregels', {
+      url: '/archief/spelregels',
+      templateUrl: 'src/public/archief/archief.spelregels.html',
+      controller: 'SpelregelsController',
+      controllerAs: 'spelregelsCtrl'
+    })
     .state('public.menu', {
       url: '/menu',
       templateUrl: 'src/public/menu/menu.html',
