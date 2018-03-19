@@ -45,6 +45,36 @@ function routeConfig ($stateProvider) {
       controller: 'SpelregelsController',
       controllerAs: 'spelregelsCtrl'
     })
+    .state('public.archief.dag1', {
+      url: '/dag1',
+      templateUrl: 'src/public/archief/archief.dag1.html',
+      controller: 'Dag1Controller',
+      controllerAs: 'dag1Ctrl'
+    })
+    .state('public.archief.dag2', {
+      url: '/dag2',
+      templateUrl: 'src/public/archief/archief.dag2.html',
+      controller: 'Dag2Controller',
+      controllerAs: 'dag2Ctrl'
+    })
+    .state('public.archief.dag3', {
+      url: '/dag3',
+      templateUrl: 'src/public/archief/archief.dag3.html',
+      controller: 'Dag3Controller',
+      controllerAs: 'dag3Ctrl'
+    })
+    .state('public.archief.winnaar', {
+      url: '/winnaar',
+      templateUrl: 'src/public/archief/archief.winnaar.html',
+      controller: 'WinnaarController',
+      controllerAs: 'winnaarCtrl'
+    })
+    .state('public.archief.mol', {
+      url: '/mol',
+      templateUrl: 'src/public/archief/archief.mol.html',
+      controller: 'MolController',
+      controllerAs: 'molCtrl'
+    })
     .state('public.menu', {
       url: '/menu',
       templateUrl: 'src/public/menu/menu.html',
