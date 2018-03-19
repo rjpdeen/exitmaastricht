@@ -34,13 +34,13 @@ function routeConfig ($stateProvider) {
       controllerAs: 'archiefCtrl'
     })
     .state('public.archief.intro', {
-      url: '/archief/intro',
+      url: '/intro',
       templateUrl: 'src/public/archief/archief.intro.html',
       controller: 'IntroController',
       controllerAs: 'intoCtrl'
     })
     .state('public.archief.spelregels', {
-      url: '/archief/spelregels',
+      url: '/spelregels',
       templateUrl: 'src/public/archief/archief.spelregels.html',
       controller: 'SpelregelsController',
       controllerAs: 'spelregelsCtrl'
