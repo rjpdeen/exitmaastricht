@@ -9,8 +9,9 @@
   </div>
   <h2 class="weektitle">De deelnemers van 2018</h2>
   <div id="home-tiles" class="row">
-    <div ng-repeat="deelnemer in homeCtrl.deelnemers" class="col-md-4 col-sm-6 col-xs-12">
-      <a ui-sref="public.{{deelnemer.id}}"><div id="deelnemer-tile" class="{{deelnemer.id}}-tile"><span> {{ deelnemer.naam }}</span></div></a>
+    <div ng-repeat="deelnemer in homeCtrl.deelnemers" class="col-md-4 col-sm-6 col-xs-12" 
+          ui-sref="public.deelnemer({deelnemerId: deelnemer.id })">
+      <a><div id="deelnemer-tile" class="{{deelnemer.id}}-tile"><span> {{ deelnemer.naam }}</span></div></a>
     </div>
   </div>
 </div>

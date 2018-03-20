@@ -21,11 +21,18 @@ function routeConfig ($stateProvider) {
       controller: 'HomeController',
       controllerAs: 'homeCtrl'
     })
-    .state('public.piet', {
-      url: '/piet',
-      templateUrl: 'src/public/home/piet.html',
-      controller: 'PietController',
-      controllerAs: 'pietCtrl'
+    .state('public.deelnemer', {
+      url: '/deelnemer/{deelnemerId}',
+      templateUrl: 'src/public/home/home.deelnemer.html',
+      controller: 'DeelnemerController',
+      controllerAs: 'deelnemerCtrl',
+      resolve: {
+        deelnemer: ['$stateParams', 
+            function($stateParams) {
+              return $stateParams.deelnemerId;
+            }
+        ]
+      }
     })
     .state('public.archief', {
       url: '/archief',

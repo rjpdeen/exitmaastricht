@@ -2,11 +2,28 @@
 	color: #557c3e;
 }
 
-/*body {
-  padding: 0 50px;
-  background-color: #f4f4f4;
-  font-family: source-sans-pro, sans-serif;
-}*/
+#foto-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: left;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+#foto-tile {
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#foto-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
 
 :focus {
   outline-color: transparent;

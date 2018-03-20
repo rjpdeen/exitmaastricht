@@ -12,7 +12,7 @@ function HomeController(DeelnemerService) {
 	$ctrl.promise = DeelnemerService.getDeelnemers()
 	.then( function success (response) {
 		$ctrl.deelnemers = response.data;
-		// console.log("deelnemers: ", $ctrl.deelnemers);
+		console.log("deelnemers: ", $ctrl.deelnemers);
 	});
 
 	
