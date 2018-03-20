@@ -1,6 +1,6 @@
 <div class="container archief">
 	<h4 class="weektitle">Wie is de Mol 2015 (Medebach en Vaals)</h4>
-	<div class="topcoat-button-bar">
+<!-- 	<div class="topcoat-button-bar">
    		<label class="topcoat-button-bar__item">
      		<input type="radio" name="topcoat">
      		<button class="topcoat-button-bar__button" ui-sref="public.archief.spelregels">Spelregels</button>
@@ -28,9 +28,34 @@
    		<label class="topcoat-button-bar__item">
      		<input type="radio" name="topcoat">
      		<button class="topcoat-button-bar__button" ui-sref="public.archief.mol">De mol</button>
-   		</label>
+   		</label> -->
+        <!-- </div> -->
+</div>
 
-	</div>
-	<ui-view></ui-view>
+<div class="container row">
+  <div class="col-lg-3 col-md-3 col-sm-2 col-xs-4">
+    <button class="btn-3" ui-sref="public.archief.spelregels">Spel regels</button>  
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-2 col-xs-4">
+    <button class="btn-3" ui-sref="public.archief.intro">Intro</button>
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-2 col-xs-4">
+    <button class="btn-3" ui-sref="public.archief.dag1">Dag 1</button>
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-2 col-xs-4">
+    <button class="btn-3" ui-sref="public.archief.dag2">Dag 2</button>
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-2 col-xs-4">
+    <button class="btn-3" ui-sref="public.archief.dag3">Dag 3</button>
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-2 col-xs-4">
+    <button class="btn-3" ui-sref="public.archief.winnaar">De winnaar</button>
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-2 col-xs-4">
+    <button class="btn-3" ui-sref="public.archief.mol">De mol</button>
+  </div>
+</div>  
 
+<div class="container">
+  <ui-view></ui-view>
 </div>
