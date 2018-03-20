@@ -42,6 +42,7 @@
 }
 
 .btn-3:focus {
+  background: #FFFFFF;
   color: #2ecc71;
 }
 
