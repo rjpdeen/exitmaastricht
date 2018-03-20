@@ -2,7 +2,7 @@
 @media (min-width: 1200px) {
   .weektitle { /* week1 en week2 title */
     padding-top: 10px;
-    font-size: 4.5vw; /* 1vw = 1% of viewport width */
+    font-size: 4vw; /* 1vw = 1% of viewport width */
   }
 }
 
@@ -18,7 +18,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .weektitle { /* week1 en week2 title */
     padding-top: 10px;
-    font-size: 3.5vw; /* 1vw = 1% of viewport width */
+    font-size: 4vw; /* 1vw = 1% of viewport width */
   }
 }
 
@@ -26,7 +26,7 @@
 @media (min-width: 480px) and (max-width: 767px) {
   .weektitle { /* week1 en week2 title */
     padding-top: 10px;
-    font-size: 3vw; /* 1vw = 1% of viewport width */
+    font-size:4vw; /* 1vw = 1% of viewport width */
   }
 }
 
@@ -34,6 +34,6 @@
 @media (max-width: 479px) {
   .weektitle { /* week1 en week2 title */
     padding-top: 10px;
-    font-size: 2.5vw; /* 1vw = 1% of viewport width */
+    font-size: 4vw; /* 1vw = 1% of viewport width */
   }
 }
