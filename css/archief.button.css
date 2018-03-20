@@ -22,12 +22,12 @@
   border-radius: 5px;
   color: #fff;
   display: block;
-  font-size: 0.8em;
+  font-size: 0.6em;
   font-weight: bold;
-  margin: 1em auto;
+  margin: 0.5em auto;
   /*padding: 0.5em 2em;*/
   /*padding: 2em 6em;*/
-  height: 50px;
+  height: 40px;
   width: 100%;
   position: relative;
   text-transform: uppercase;
