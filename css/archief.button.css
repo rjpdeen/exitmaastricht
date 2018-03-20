@@ -13,7 +13,7 @@
   text-transform: uppercase;
 }
 
-.btn-3:focus {
+.btn-3:active {
   background: #fff;
   color: #2ecc71;
 }
