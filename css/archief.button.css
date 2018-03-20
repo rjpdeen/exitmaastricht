@@ -1,62 +1,19 @@
-/*body {
-  background: #2ecc71;
-  font-size: 62.5%;
-}
-
-.container {
-  padding: 2em;
-}*/
-
-/* GENERAL BUTTON STYLING */
-/*.btn-3,
-.btn-3::after {
-  -webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-	transition: all 0.3s;
-}*/
-
 .btn-3 {
   background: none;
   border: 3px solid #fff;
   border-radius: 5px;
   color: #fff;
   display: block;
-  font-size: 0.6em;
+  font-size: 0.7em;
   font-weight: bold;
   margin: 0.5em auto;
-  /*padding: 0.5em 2em;*/
-  /*padding: 2em 6em;*/
   height: 40px;
   width: 100%;
   position: relative;
   text-transform: uppercase;
 }
 
-/*.btn-3::before,
-.btn-3::after {
-  background: #fff;
-  content: '';
-  position: absolute;
-  z-index: -1;
-}*/
-
 .btn-3:focus {
   background: #fff;
   color: #2ecc71;
 }
-
-/* BUTTON 3 */
-/*.btn-3::after {
-  height: 0;
-  left: 50%;
-  top: 50%;
-  width: 0;
-}*/
-
-/*.btn-3:focus:after {
-  height: 100%;
-  left: 0;
-  top: 0;
-  width: 100%;
-}*/
