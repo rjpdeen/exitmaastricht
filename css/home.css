@@ -34,6 +34,7 @@
 #deelnemer-tile.piet-tile{
   background: url('../images/deelnemers/piet.jpg') no-repeat;
   background-position: center;
+  width: 500px;
 }
 #deelnemer-tile.milo-tile{
   background: url('../images/deelnemers/milo.jpg') no-repeat;
