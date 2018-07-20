@@ -21,6 +21,18 @@ function routeConfig ($stateProvider) {
       controller: 'HomeController',
       controllerAs: 'homeCtrl'
     })
+    .state('public.robertville', {
+      url: '/robertville',
+      templateUrl: 'src/public/home/home.robertville.html',
+      controller: 'RobertvilleController',
+      controllerAs: 'robertvilleCtrl'
+    })
+    .state('public.les-trois-forets', {
+      url: '/les-trois-forets',
+      templateUrl: 'src/public/home/home.les-trois-forets.html',
+      controller: 'LesTroisForetsController',
+      controllerAs: 'lesTroisForetsCtrl'
+    })
     .state('public.deelnemer', {
       url: '/deelnemer/{deelnemerId}',
       templateUrl: 'src/public/home/home.deelnemer.html',
