@@ -21,17 +21,53 @@ function routeConfig ($stateProvider) {
       controller: 'HomeController',
       controllerAs: 'homeCtrl'
     })
-    .state('public.robertville', {
-      url: '/robertville',
-      templateUrl: 'src/public/home/home.robertville.html',
-      controller: 'RobertvilleController',
-      controllerAs: 'robertvilleCtrl'
+    .state('public.spel', {
+      url: '/spel',
+      templateUrl: 'src/public/spel/spel.html',
+      controller: 'SpelController',
+      controllerAs: 'spelCtrl'
     })
-    .state('public.les-trois-forets', {
-      url: '/les-trois-forets',
-      templateUrl: 'src/public/home/home.les-trois-forets.html',
-      controller: 'LesTroisForetsController',
-      controllerAs: 'lesTroisForetsCtrl'
+    .state('public.spel.intro', {
+      url: '/spel/intro',
+      templateUrl: 'src/public/spel/spel.intro.html',
+      controller: 'IntroController',
+      controllerAs: 'spelIntoCtrl'
+    })
+    .state('public.spel.spelregels', {
+      url: '/spel/spelregels',
+      templateUrl: 'src/public/spel/spel.spelregels.html',
+      controller: 'SpelSpelregelsController',
+      controllerAs: 'spelSpelregelsCtrl'
+    })
+    .state('public.spel.dag1', {
+      url: '/dag1',
+      templateUrl: 'src/public/spel/spel.dag1.html',
+      controller: 'SpelDag1Controller',
+      controllerAs: 'spelDag1Ctrl'
+    })
+    .state('public.spel.dag2', {
+      url: '/dag2',
+      templateUrl: 'src/public/spel/spel.dag2.html',
+      controller: 'SpelDag2Controller',
+      controllerAs: 'spelDag2Ctrl'
+    })
+    .state('public.spel.dag3', {
+      url: '/dag3',
+      templateUrl: 'src/public/spel/spel.dag3.html',
+      controller: 'SpelDag3Controller',
+      controllerAs: 'spelDag3Ctrl'
+    })
+    .state('public.spel.winnaar', {
+      url: '/winnaar',
+      templateUrl: 'src/public/spel/spel.winnaar.html',
+      controller: 'SpelWinnaarController',
+      controllerAs: 'spelWinnaarCtrl'
+    })
+    .state('public.spel.mol', {
+      url: '/mol',
+      templateUrl: 'src/public/spel/spel.mol.html',
+      controller: 'SpelMolController',
+      controllerAs: 'spelMolCtrl'
     })
     .state('public.deelnemer', {
       url: '/deelnemer/{deelnemerId}',
