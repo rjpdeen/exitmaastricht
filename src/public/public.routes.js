@@ -40,31 +40,31 @@ function routeConfig ($stateProvider) {
       controllerAs: 'spelSpelregelsCtrl'
     })
     .state('public.spel.dag1', {
-      url: '/dag1',
+      url: 'spel/dag1',
       templateUrl: 'src/public/spel/spel.dag1.html',
       controller: 'SpelDag1Controller',
       controllerAs: 'spelDag1Ctrl'
     })
     .state('public.spel.dag2', {
-      url: '/dag2',
+      url: 'spel/dag2',
       templateUrl: 'src/public/spel/spel.dag2.html',
       controller: 'SpelDag2Controller',
       controllerAs: 'spelDag2Ctrl'
     })
     .state('public.spel.dag3', {
-      url: '/dag3',
+      url: 'spel/dag3',
       templateUrl: 'src/public/spel/spel.dag3.html',
       controller: 'SpelDag3Controller',
       controllerAs: 'spelDag3Ctrl'
     })
     .state('public.spel.winnaar', {
-      url: '/winnaar',
+      url: 'spel/winnaar',
       templateUrl: 'src/public/spel/spel.winnaar.html',
       controller: 'SpelWinnaarController',
       controllerAs: 'spelWinnaarCtrl'
     })
     .state('public.spel.mol', {
-      url: '/mol',
+      url: 'spel/mol',
       templateUrl: 'src/public/spel/spel.mol.html',
       controller: 'SpelMolController',
       controllerAs: 'spelMolCtrl'
