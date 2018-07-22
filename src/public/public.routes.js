@@ -51,6 +51,12 @@ function routeConfig ($stateProvider) {
       controller: 'SpelDag2Controller',
       controllerAs: 'spelDag2Ctrl'
     })
+    .state('public.spel.jokerjacht', {
+      url: 'spel/jokerjacht',
+      templateUrl: 'src/public/spel/spel.jokerjacht.html',
+      controller: 'JokerjachtController',
+      controllerAs: 'jokerjachtCtrl'
+    })
     .state('public.spel.dag3', {
       url: 'spel/dag3',
       templateUrl: 'src/public/spel/spel.dag3.html',
