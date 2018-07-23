@@ -5,6 +5,10 @@ body {
   font-family: 'Exo 2', sans-serif;
 }
 
+h3, h4 {
+  color: #557c3e;
+}
+
 .initial-loading {
   margin-top: 60px;
 }
