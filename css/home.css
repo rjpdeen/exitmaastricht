@@ -51,6 +51,10 @@
   background: url('../images/deelnemers/joyce.jpg') no-repeat;
   background-position: center;
 }
+#deelnemer-tile.ron-tile{
+  background: url('../images/deelnemers/ron.jpg') no-repeat;
+  background-position: center;
+}
 
 #deelnemer-tile span {
   position: absolute;
