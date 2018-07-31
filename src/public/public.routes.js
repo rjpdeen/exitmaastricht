@@ -21,6 +21,18 @@ function routeConfig ($stateProvider) {
       controller: 'HomeController',
       controllerAs: 'homeCtrl'
     })
+    .state('public.extra', {
+      url: '/extra',
+      templateUrl: 'src/public/extra/extra.html',
+      controller: 'ExtraController',
+      controllerAs: 'extraCtrl'
+    })
+    .state('public.extra.mtb', {
+      url: '/extra/mtb',
+      templateUrl: 'src/public/extra/extra.mtb.html',
+      controller: 'ExtraMtbController',
+      controllerAs: 'extraMtbCtrl'
+    })
     .state('public.spel', {
       url: '/spel',
       templateUrl: 'src/public/spel/spel.html',
@@ -31,7 +43,7 @@ function routeConfig ($stateProvider) {
       url: '/spel/intro',
       templateUrl: 'src/public/spel/spel.intro.html',
       controller: 'IntroController',
-      controllerAs: 'spelIntoCtrl'
+      controllerAs: 'spelIntroCtrl'
     })
     .state('public.spel.spelregels', {
       url: '/spel/spelregels',
